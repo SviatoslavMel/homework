@@ -1,0 +1,38 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "My homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "lint": "npx eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SviatoslavMel/homework.git"
+  },
+  "keywords": [
+    "koa2",
+    "nodejs"
+  ],
+  "author": {
+    "name": "sviatoslav",
+    "email": "melnychuksviatoslav@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "dnscache": "^1.0.2",
+    "dotenv": "^16.0.1",
+    "koa": "^2.6.2",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
